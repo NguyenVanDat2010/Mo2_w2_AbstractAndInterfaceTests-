@@ -1,7 +1,8 @@
 package animal;
 
-public class Tiger extends Animal{
-    public String makeSound(){
+public class Tiger extends Animal {
+    @Override
+    public String makeSound() {
         return "Tiger roarrrrr";
     }
 }
